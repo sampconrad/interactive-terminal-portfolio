@@ -17,14 +17,14 @@ const About = ({ setLoading }) => {
     <>
       <Flex
         align='center'
-        flexDirection={{base: 'column', md: 'row'}}
-        px={{base: '2', md: '10'}}
+        flexDirection={{ base: 'column', md: 'row' }}
+        px={{ base: '2', md: '10' }}
         py={5}
         gap={5}>
         <Avatar
           size='xl'
           name={data?.name}
-          src='/public/avatar.png'
+          src='/src/assets/avatar.png'
         />
         <Stack spacing={0}>
           <Text
