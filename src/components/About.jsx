@@ -10,6 +10,7 @@ const About = ({ setLoading }) => {
       .then((data) => {
         setLoading(false);
         setData(data);
+        console.log(data)
       });
   }, []);
 
@@ -24,7 +25,7 @@ const About = ({ setLoading }) => {
         <Avatar
           size='xl'
           name={data?.name}
-          src='/src/assets/avatar.png'
+          src={data?.avatar_url}
         />
         <Stack spacing={0}>
           <Text
