@@ -1,6 +1,6 @@
 # interactive-terminal-portfolio
 
-Demo: https://sampconrad.github.io/interactive-terminal-portfolio/
+Demo: https://sampconrad-terminal.netlify.app/
 
 ## About
 
