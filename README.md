@@ -3,8 +3,6 @@
 Demo: https://sampconrad-terminal.netlify.app/
 
 ## About
-
-About
 Interactive terminal-like portfolio website built on ReactJS with Vite and ChakraUI. Pulling information from the GitHub API to populate the displayed info.
 
 ![preview](./preview.png)
